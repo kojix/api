@@ -13,7 +13,7 @@
     "NODE_ENV": "development",
     "DEBUG": "kojix,kojix:*",
     "MONGODB": "mongodb://localhost/kojix",
-    "PORT": 3000,
+    "PORT": 3000
   },
   "ext": "js json coffee jade styl"
 }

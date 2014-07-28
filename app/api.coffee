@@ -8,9 +8,9 @@ app = express()
 
 # load config
 config = require './config'
-#config.models = config.damnutils.ModuleUtil.requireFolder config.path.join __dirname, 'models'
-#config.helpers = config.damnutils.ModuleUtil.requireFolder config.path.join __dirname, 'helpers'
-#config.controllers = config.damnutils.ModuleUtil.requireFolder config.path.join __dirname, 'controllers'
+config.models = config.damnutils.ModuleUtil.requireFolder config.path.join __dirname, 'models'
+config.helpers = config.damnutils.ModuleUtil.requireFolder config.path.join __dirname, 'helpers'
+config.controllers = config.damnutils.ModuleUtil.requireFolder config.path.join __dirname, 'controllers'
 
 # jwt
 log 'init jwt'

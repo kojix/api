@@ -18,4 +18,4 @@ for(env in process.env) {
 }
 
 log('Load API');
-//require('./app/api');
+require('./app/api');
